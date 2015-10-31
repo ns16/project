@@ -8,3 +8,9 @@
 body {
 	background-color: gainsboro;
 }
+p {
+	margin: 15px 0;
+}
+span {
+	color: maroon;
+}

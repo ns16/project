@@ -5,12 +5,32 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-body {
-	background-color: gainsboro;
+html, body {
+	height: 100%;
+	min-height: 100%;
 }
 p {
 	margin: 15px 0;
 }
 span {
 	color: maroon;
+}
+#wrapper {
+	width: 980px;
+	min-height: 100%;
+	margin: 0 auto -100px;
+}
+	#header {
+		height: 100px;
+		background-color: gainsboro;
+	}
+	#content {
+		padding-bottom: 100px;
+		background-color: silver;
+	}
+#footer {
+	width: 980px;
+	height: 100px;
+	margin: 0 auto;
+	background-color: gainsboro;
 }
